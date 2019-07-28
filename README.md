@@ -13,16 +13,16 @@ ping example.com & ticker
 ```
 在ping命令完成后,不加参数的tiker会输出响铃符(\a),此时如果你的电脑开着声音,会听
 到"叮"一声(windows不同版本声音也不同)
-![](assets/image/p2.png)  
+![](https://github.com/kimmosc2/ticker/blob/master/assets/image/p2.png)  
   
 2.配合ping命令使用加参数的ticker
 ```
 ping example.com & ticker -b
 ```
 在ping命令完成后,加了-b参数的ticker会弹出一个消息框,默认内容为`ticker complete.`
-![](assets/image/p3.png)  
+![](https://github.com/kimmosc2/ticker/raw/master/assets/image/p3.png)  
 您也可以使用`-m message`参数来自定义消息内容.
-![](assets/image/p4.png)    
+![](https://github.com/kimmosc2/ticker/raw/master/assets/image/p4.png)    
   
 ## 如何安装? 
 您可以使用以下两种方式来使用Ticker: 
@@ -41,6 +41,6 @@ Ticker的Message box底层调用windows提供的API,所以只能在Windows平台
 ## 提交bug  
 发现Bug请至issue板块提出,贡献代码请单独拉PR
 ## 版权和许可信息  
-MIT协议
+[MIT license](https://github.com/kimmosc2/ticker/blob/master/LICENSE)
 ## 贡献者
 [BuTn](https://github.com/kimmosc2)
