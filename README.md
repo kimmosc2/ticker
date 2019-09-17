@@ -1,6 +1,5 @@
 Ticker  
-=============================
- 
+======
 ## Ticker是什么?  
 过去,当我们在命令行下做一些耗费时间的工作时(如npm install等),等待命令完成的这段时
 间是十分无趣的,当我们切换至其他任务时可能许久之后才记起这个"不知道什么时候会完成"的
@@ -32,7 +31,7 @@ ping example.com & ticker -b
 #### 下载并安装二进制包 
 我们提供了编译好的二进制包,您下载并解压后将其放入C:\Windows(只要是Path环境变量所
 在目录都可以),运行cmd输入ticker就可以使用了.  
-下载地址: [百度网盘](https://pan.baidu.com/s/1J9O73CnvfFhDHaF83F1k2A)  
+ **下载地址** : [百度网盘](https://pan.baidu.com/s/1J9O73CnvfFhDHaF83F1k2A)  
 提取码:`k5ad`
 #### 源代码编译:
 ```
